@@ -4,21 +4,28 @@ public class Main
 {
     public static void main(String[] args)
     {
-        System.out.println("Hello world");
+        // System.out.println("Hello world");
 
-        Animal misty = new Dog("Misty");
+        // Animal misty = new Dog("Misty");
 
         Animal topCat = new Cat("TopCat");
 
-        System.out.println(misty);
-        System.out.println(topCat);
+        Cat ginger = new Cat("Ginger");
 
-        misty = topCat;
+        // System.out.println(misty);
+        // System.out.println(topCat);
 
-        topCat.setName("Garfield");
+        // misty = topCat;
 
-        System.out.println(misty);
-        System.out.println(topCat);
+        // topCat.setName("Garfield");
+        // ginger.setName("Ginger");
+
+        // System.out.println(misty);
+        // System.out.println(topCat);
+
+        while (ginger.getNumLives() > 0) {
+            ginger.kill();
+        }
 
         // What will get printed out??
 
